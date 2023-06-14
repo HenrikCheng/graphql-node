@@ -23,6 +23,30 @@ const authors = [
     id: 3,
     name: "Ernest Hemingway",
   },
+  {
+    id: 4,
+    name: "Fyodor Dostoevsky",
+  },
+  {
+    id: 5,
+    name: "Charlotte Bronte",
+  },
+  {
+    id: 6,
+    name: "Mark Twain",
+  },
+  {
+    id: 7,
+    name: "Leo Tolstoy",
+  },
+  {
+    id: 8,
+    name: "Virginia Woolf",
+  },
+  {
+    id: 9,
+    name: "George Orwell",
+  },
 ];
 
 const books = [
@@ -75,6 +99,108 @@ const books = [
     id: 9,
     name: "A Farewell to Arms",
     authorid: 3,
+  },
+
+  // Books by Fyodor Dostoevsky
+  {
+    id: 10,
+    name: "Crime and Punishment",
+    authorid: 4,
+  },
+  {
+    id: 11,
+    name: "The Brothers Karamazov",
+    authorid: 4,
+  },
+  {
+    id: 12,
+    name: "Notes from Underground",
+    authorid: 4,
+  },
+
+  // Books by Charlotte Bronte
+  {
+    id: 13,
+    name: "Jane Eyre",
+    authorid: 5,
+  },
+  {
+    id: 14,
+    name: "Villette",
+    authorid: 5,
+  },
+  {
+    id: 15,
+    name: "Shirley",
+    authorid: 5,
+  },
+
+  // Books by Mark Twain
+  {
+    id: 16,
+    name: "The Adventures of Huckleberry Finn",
+    authorid: 6,
+  },
+  {
+    id: 17,
+    name: "The Adventures of Tom Sawyer",
+    authorid: 6,
+  },
+  {
+    id: 18,
+    name: "A Connecticut Yankee in King Arthur's Court",
+    authorid: 6,
+  },
+
+  // Books by Leo Tolstoy
+  {
+    id: 19,
+    name: "War and Peace",
+    authorid: 7,
+  },
+  {
+    id: 20,
+    name: "Anna Karenina",
+    authorid: 7,
+  },
+  {
+    id: 21,
+    name: "The Death of Ivan Ilyich",
+    authorid: 7,
+  },
+
+  // Books by Virginia Woolf
+  {
+    id: 22,
+    name: "To the Lighthouse",
+    authorid: 8,
+  },
+  {
+    id: 23,
+    name: "Mrs Dalloway",
+    authorid: 8,
+  },
+  {
+    id: 24,
+    name: "Orlando",
+    authorid: 8,
+  },
+
+  // Books by George Orwell
+  {
+    id: 25,
+    name: "1984",
+    authorid: 9,
+  },
+  {
+    id: 26,
+    name: "Animal Farm",
+    authorid: 9,
+  },
+  {
+    id: 27,
+    name: "Down and Out in Paris and London",
+    authorid: 9,
   },
 ];
 
